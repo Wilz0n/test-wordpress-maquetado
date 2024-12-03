@@ -1,0 +1,29 @@
+.navbarinit {
+    display: flex;
+    justify-content: space-between;
+}
+.navbarimg img {
+    height: 3rem;
+    width: 3rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    gap: 0.8rem;
+}
+
+.navicons button {
+    color: white;
+    padding: 0.5rem;
+}
+
+.navicons a {
+    color: white;
+    font-size: 1.5rem; /* Puedes ajustar el tamaño si es necesario */
+}
+
+.navicons svg {
+    color: white; /* Esto asegurará que los íconos hereden este color */
+}
